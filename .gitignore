@@ -1,0 +1,102 @@
+# --------------------
+# Golang
+# --------------------
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage files
+*.cover
+*.coverprofile
+coverage.*
+
+# Build artifacts
+/build/
+/bin/
+/dist/
+
+# Dependency directories (if using vendoring)
+vendor/
+
+# Go module cache (in case of accidental inclusion)
+.gocache/
+.gomodcache/
+
+# Go tools
+go.sum
+
+# --------------------
+# Zig
+# --------------------
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.bin
+*.a
+*.exe
+*.log
+
+# --------------------
+# Elixir / Phoenix
+# --------------------
+# Compiled BEAM files
+/_build/
+deps/
+erl_crash.dump
+*.ez
+
+# Elixir-specific
+*.beam
+*.dump
+*.plt
+
+# Elixir core
+.elixir_ls/       # VSCode language server plugin cache
+.mix/
+.miexs
+
+# Phoenix specific
+/assets/node_modules/
+priv/static/
+
+# --------------------
+# General
+# --------------------
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Environment files
+.env
+.env.*
+
+# GitHub Copilot or similar
+copilot.json
+
+# --------------------
+# Optional: Docker / CI
+# --------------------
+.docker/
+docker-compose.override.yml
+*.pid
+/tmp/
